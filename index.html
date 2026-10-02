@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <html dir="rtl">
+
+    <title>
+        طلب تقديم علي وظيفة
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>استمارة التوظيف</h1>
+        <h2 style="color: rgb(149, 0, 255);">
+            لا ده واحد عبيط كمل كمل
+        </h2>
+        <img src="ahmed.jpeg" alt="شعار الشركة"
+            width="150" height="300">
+    </header>
+    <br>
+    <main>
+        <form action="" method="get">
+            <label for="name">الاسم الثلاثي</label>
+            <input type="text" id="name" name="name" placeholder="ادخل اسمك الثلاثي" required>
+            <br><br>
+            <label for="email">البريد الالكتروني </label>
+            <input type="email" id="email" name="email" required placeholder="example@mail.com">
+            <br><br>
+            <label for="phone">رقم الهاتف</label>
+            <input type="tel" name="phone" id="phone" placeholder="ادخل الرقم" required>
+            <br><br>
+            <label for="experince">سنوات الخبرة</label>
+            <input required type="number" id="experince" name="experince" max="10" min="0" placeholder="سنوات الخبرة">
+            <br><br>
+            <label for="carrer">المسمي الوظيفي </label>
+            <select name="carrer" id="carrer">
+                <option> front-end developer</option>
+                <option>back-end developer</option>
+                <option> full-stack developer</option>
+            </select>
+            <br><br>
+            <p>نوع اعمل المفضل </p>
+            <input type="radio" name="fav work" id="home">
+            <label for="home">من المقر</label>
+            <input type="radio" name="fav work" id="remote">
+            <label for="remote">عن بعد</label>
+            <br><br>
+            <p>المهارات</p>
+            <input type="checkbox" name="skiles" id="html">
+            <label for="html">html</label>
+            <br>
+            <input type="checkbox" name="skiles" id="css">
+            <label for="css">css</label>
+            <br>
+            <input type="checkbox" name="skiles" id="js">
+            <label for="js">javascript</label>
+            <br><br>
+            <label for="cv">ارفع سيرتك الزاتية </label>
+            <input required type="file" name="cv" id="cv">
+            <br><br>
+            <label for="talk">اكتب رسالة</label>
+            <br><br>
+            <textarea name="talk" id="talk" rows="20" cols="30" placeholder="اكتب هنا"></textarea>
+            <br><br>
+            <input type="submit" value="ارسال">
+            <input type="reset" value="مسح">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; جميع الحقوق محفوظة 2024
+        </p>
+        <p>زيارة البروفايل بتاعي <a href="" target="_blank">LinkedIn</a></p>
+    </footer>
+</body>
+
+</html>
